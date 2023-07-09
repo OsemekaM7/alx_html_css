@@ -7,7 +7,7 @@ main {
     display: flex;
     flex-direction: row;
     flex: auto;
-    background-color: aquamarine;
+    background-color: pink;
     color: black;
 }
 
@@ -23,5 +23,11 @@ aside {
 
 header {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row;
+    align-items: center; */
+    border: 1px solid black;
+}
+
+header ul .navbar {
+    background-color: azure;
 }
